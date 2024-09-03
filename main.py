@@ -25,3 +25,4 @@ if tipoConta == "somar":
 
 if tipoConta == "subtrair":
     print("O resultado da conta é ", numero1 - numero2)
+    
