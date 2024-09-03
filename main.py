@@ -22,3 +22,7 @@ tipoConta = input("Desejo ")
 
 if tipoConta == "somar":
     print("O resultado da conta é ", numero1 + numero2)
+
+if tipoConta == "subtrair":
+    print("O resultado da conta é ", numero1 - numero2)
+    
