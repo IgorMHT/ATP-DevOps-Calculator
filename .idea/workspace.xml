@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56b4b595-7c40-4ddb-b651-a0e7ca94abcc" name="Changes" comment="" />
+    <list default="true" id="56b4b595-7c40-4ddb-b651-a0e7ca94abcc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/CdSystem.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +30,7 @@
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Ci-system",
+    "git-widget-placeholder": "Cd-system",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/PUCPR/Git/ATP-DevOps-Calculator",
     "node.js.detected.package.eslint": "true",
@@ -59,7 +61,7 @@
       <workItem from="1725326440882" duration="6000" />
       <workItem from="1725326496288" duration="1011000" />
       <workItem from="1725408803358" duration="600000" />
-      <workItem from="1725410569977" duration="318000" />
+      <workItem from="1725410569977" duration="624000" />
     </task>
     <servers />
   </component>
