@@ -1,0 +1,21 @@
+name: Continuous Delivery System
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deliverSystem:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+
+      - name: Teste de continious delivery
+        uses: actions/upload-artifact@v4
+        with:
+          name: ATPdevops
+          path: |
+            main.py
+            README.md
+            LICENSE
