@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56b4b595-7c40-4ddb-b651-a0e7ca94abcc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/CiSystem" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +31,7 @@
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Soma",
+    "git-widget-placeholder": "Ci-system",
     "last_opened_file_path": "D:/PUCPR/Git/ATP-DevOps-Calculator",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -60,6 +60,7 @@
       <workItem from="1725326046704" duration="353000" />
       <workItem from="1725326440882" duration="6000" />
       <workItem from="1725326496288" duration="1011000" />
+      <workItem from="1725408803358" duration="600000" />
     </task>
     <servers />
   </component>
