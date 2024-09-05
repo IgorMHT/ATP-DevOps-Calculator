@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56b4b595-7c40-4ddb-b651-a0e7ca94abcc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/CdSystem.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/CdSystem.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/CiSystem.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/CiSystem.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,7 @@
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Dockerfile",
+    "git-widget-placeholder": "DockerfileSetup",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/PUCPR/Git/ATP-DevOps-Calculator",
     "node.js.detected.package.eslint": "true",
@@ -55,7 +54,9 @@
 }]]></component>
   <component name="RunManager">
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile" />
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
   </component>
