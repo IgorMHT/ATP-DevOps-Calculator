@@ -6,7 +6,7 @@ resultado = 0
 
 @app.get("/")
 async def root():
-    print(" Bem vindo a calculadora")
+    return {"message": "Hello World"}
 
 print("Para começar, digite seu nome")
 
