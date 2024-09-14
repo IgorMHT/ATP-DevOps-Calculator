@@ -2,23 +2,19 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-resultado = 0
 
 @app.get("/")
 async def root():
     return {"message": "Hello World"}
 
-print("Para começar, digite seu nome")
 
-nome = input("Seu nome: ")
+@app.get("/calculdockar")
+async def calcular(nome: str, numero1: int, numero2: int, operacao: str):
+    if operacao == "somar":
+        resultado = numero1 + numero2
+    elif operacao == "subtrair":
+        resultado = numero1 - numero2
+    else:
+        return {"erro": "Operação não suportada"}
 
-numero1 = int(input("Olá " + nome + ", digite o primeiro número: "))
-numero2 = int(input("Digite o segundo número: "))
-
-print("Agora selecione o tipo de conta")
-print("Somar")
-print("Subtrair")
-tipoConta = input("Desejo ")
-
-if tipoConta == "somar":
-    print("O resultado da conta é ", numero1 + numero2)
+    return {"nome": nome, "resultado": resultado}
