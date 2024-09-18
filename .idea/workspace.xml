@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56b4b595-7c40-4ddb-b651-a0e7ca94abcc" name="Changes" comment="Alterações no dockerfile e main.py">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/CiSystem.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/CiSystem.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -139,7 +138,7 @@
       <workItem from="1725408803358" duration="600000" />
       <workItem from="1725410569977" duration="624000" />
       <workItem from="1726332932185" duration="840000" />
-      <workItem from="1726620032175" duration="1558000" />
+      <workItem from="1726620032175" duration="2280000" />
     </task>
     <servers />
   </component>
