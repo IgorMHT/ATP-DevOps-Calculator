@@ -1,0 +1,15 @@
+from src.main import *
+from unittest.mock import patch
+
+def test_root():
+    assert root() == {"message": "Hello World"}
+
+def test_calcular(nome: str, numero1: int, numero2: int, operacao: str):
+    if operacao == "somar":
+        resultado = numero1 + numero2
+    elif operacao == "subtrair":
+        resultado = numero1 - numero2
+    else:
+        return {"erro": "Operação não suportada"}
+
+    assert calcular() == {"nome": nome, "resultado": resultado}
