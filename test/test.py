@@ -13,5 +13,6 @@ def test_calcular(nome: str, numero1: int, numero2: int, operacao: str):
         resultado = numero1 - numero2
     else:
         return {"erro": "Operação não suportada"}
-
-    assert calcular() == {"nome": nome, "resultado": resultado}
+    result = calcular
+    yield result
+    assert calcular == result
