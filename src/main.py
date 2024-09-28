@@ -9,7 +9,7 @@ async def root():
 
 
 @app.get("/calcular")
-async def calcular(nome: str, numero1: int, numero2: int, operacao: str):
+async def calcular(numero1: int, numero2: int, operacao: str):
     if operacao == "somar":
         resultado = numero1 + numero2
     elif operacao == "subtrair":
@@ -17,4 +17,4 @@ async def calcular(nome: str, numero1: int, numero2: int, operacao: str):
     else:
         return {"erro": "Operação não suportada"}
 
-    return {"nome": nome, "resultado": resultado}
+    return resultado

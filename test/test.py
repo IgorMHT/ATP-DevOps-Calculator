@@ -10,12 +10,8 @@ async def test_root():
     assert result == {"message": "Hello World"}
 
 @pytest.mark.asyncio
-async def test_calcular(nome: str, numero1: int, numero2: int, operacao: str):
-    if operacao == "somar":
-        resultado = numero1 + numero2
-    elif operacao == "subtrair":
-        resultado = numero1 - numero2
-    else:
-        return {"erro": "Operação não suportada"}
-    result = await calcular ()
-    assert calcular == result
+async def test_calcular():
+    result = await calcular (10, 20, "somar")
+    assert result == 30
+
+
